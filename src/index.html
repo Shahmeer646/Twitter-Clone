@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black ">
+  <div class="parrent text-white flex gap-3 scrollbar-track-bg-dark:bg-gray-800 justify-center ">
+    <div class="first w[24px] md:min-w-[15%]">
+      <div class="menu sticky top-3">
+        <div class="Image">
+          <img class="h-8 my-3 md:ml-3 w-8" src="/Image/th.jpg" alt="">
+        </div>
+        <ul class="flex gap-4 md:gap-2 flex-col md:items-start items-end sm:items-center ">
+          <li class="flex gap-2 cursor-pointer hover:bg-zinc-800 w-fit md:px-4 py-2 rounded-full justify-end items-end">
+            <img class="invert" src="/svgs/home.svg" alt="">
+            <span class="font-bold md:block hidden text-base">Home</span>
+          </li>
+          <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img class="invert" src="/svgs/search.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Explore</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img src="/svgs/notifficatons.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Notification</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img class="invert" src="/svgs/message.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Grok</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img class="invert" src="/svgs/list.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Lists</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img class="invert" src="/svgs/bookmarks.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Bookmarks</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img class="invert" src="/svgs/group.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Coummunities</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img class="invert" src="/svgs/box.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Premium</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img src="/svgs/profile.svg" alt="">
+           <span class="font-bold md:block hidden text-base">Profile</span>
+          </li>
+           <li
+            class="flex  cursor-pointer hover:bg-zinc-800 w-fit md:px-4 md:py-2 rounded-full justify-start gap-2 items-end">
+            <img src="/svgs/pending.svg" alt="">
+           <span class="font-bold md:block hidden text-base">More</span>
+          </li>
+          <li class="flex cursor-pointer hover:scale-105 w-fit  rounded-full justify-start gap-2 items-center">
+            <div>
+              <button class="px-14 py-1 font-bold rounded-full bg-blue-500 hidden md:block">Post</button>
+              <img class="p-1  md:hidden bg-blue-500 rounded-full" src="/svgs/pencil.svg" alt="">
+            </div>
+          </li>
+          <li>
+            <div class="profile-info hidden hover:border-white border border-gray-700 rounded-full md:flex">
+              <img class="h-10 scale-105 object-top mx-2 my-1 rounded-full object-cover w-10" src="/Image/profile.jpg"
+                alt="">
+              <div class="name mx-3 flex text-center items-start
+              mt-1 flex-col">
+                <span class="">Rahul</span>
+                <span class="text-zinc-600 text-sm ">@rahul</span>
+              </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="second border-x-2 w-[90%] lg:w-2/5 border-x-zinc-800 md:w-3/6">
+      <div class="for-you sticky backdrop-blur-xl top-0 flex items-center w-full">
+        <div class=" flex justify-around gap-2 w-2/4 items-center flex-col">
+          <span class="group font-semibold cursor-pointer text-sm px-10">For You</span>
+          <span class=" w-1/5 h-0.5 bg-blue-700"></span>
+        </div>
+        <div class="flex justify-around w-2/4">
+          <span class="font-semibold cursor-pointer text-sm py-3 pb-4 px-10">Following</span>
+          <img class="md:block hidden cursor-pointer" src="/svgs/setting.svg" alt="">
+        </div>
+      </div>
+      <div class="line h-0.5 w-full bg-zinc-800"></div>
+      <div class="profile flex gap-6 items-center">
+        <div class="img self-start m-2 flex rounded-full w-16">
+          <img class="rounded-full cursor-pointer" src="/Image/profile.jpg" alt="">
+        </div>
+        <div class="happen w-full flex flex-col ">
+          <span class="w-fit text-lg mt-2 text-gray-500">What is happening?</span>
+          <div class="flex items-center gap-1">
+            <img class="rounded-full cursor-pointer" src="/svgs/globe.svg" alt="">
+            <span class="text-blue-300 cursor-pointer my-5 text-sm">Every one can reply</span>
+          </div>
+          <div class="line w-full h-0.5 bg-zinc-800"></div>
+          <div class="blue-icons flex justify-between my-3">
+            <div class="icons flex w-full justify-around 2xl:gap-4">
+              <img class="cursor-pointer" src="/svgs/ballot.svg" alt="">
+              <img class="cursor-pointer" src="/svgs/setisfied smile.svg" alt="">
+              <img class="cursor-pointer" src="/svgs/comments.svg" alt="">
+              <img class="cursor-pointer" src="/svgs/pin drop.svg" alt="">
+              <img class="cursor-pointer" src="/svgs/gif.svg" alt="">
+            </div>
+            <div class="post">
+              <button class="px-5 py-1 rounded-full 2xl:block hidden font-bold text-sm bg-blue-500">Post</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line h-0.5 w-full bg-zinc-800"></div>
+      <div class="flex flex-col gap-2">
+        <div class="post">
+          <div class="post-profile">
+            <div class="profile-info flex">
+              <img class="h-8 m-2 object-cover rounded-md object-center w-8" src="/Image/elon.jpg" alt="">
+              <div class="name flex text-center items-start
+              mt-1 gap-2">
+                <span class="">Elon Musk</span>
+                <span class="text-zinc-600 text-sm mt-1">@elonmusk</span>
+              </div>
+            </div>
+            <div class="post-content ml-10 mr-3 ">
+              <span class="text-sm ">I spent $44 billion for this app and now Lizard boy just
+                decided to hit copy and paste.</span>
+            </div>
+            <div class="post-icons flex 2xl:gap-10 justify-around ml-10 py-3">
+              <div class="comment flex cursor-pointer">
+                <img src="/svgs/bx-comment.svg" alt="">
+                <span class="text-gray-500">10k</span>
+              </div>
+              <div class="repost flex cursor-pointer">
+                <img src="/svgs/repost.svg" alt="">
+                <span class="text-gray-500">120k</span>
+              </div>
+              <div class="heart flex cursor-pointer ">
+                <img src="/svgs/heart.svg" alt="">
+                <span class="text-gray-500">33.4k</span>
+              </div>
+              <div class="like flex cursor-pointer">
+                <img src="/svgs/like.svg" alt="">
+                <span class="text-gray-500">50k</span>
+              </div>
+            </div>
+          </div>
+          <div class="line h-0.5 w-full bg-zinc-800"></div>
+        </div>
+        <div class="post">
+          <div class="post-profile">
+            <div class="profile-info flex">
+              <img class="h-9 scale-105 object-top m-2 rounded-full object-cover w-9" src="/Image/harry.jpg" alt="">
+              <div class="name flex text-center items-start
+              mt-1 flex-col">
+                <span class="">Harray</span>
+                <span class="text-zinc-600 text-sm ">@harry</span>
+              </div>
+            </div>
+            <div class="post-content  ml-10 mr-3 ">
+              <span class="text-gray-400 my-3">Sigma Web Development Course</span>
+              <img class="h-60 " src="/Image/hqdefault.webp" alt="">
+            </div>
+            <div class="post-icons flex 2xl:gap-10 justify-around ml-10 py-3">
+              <div class="comment flex cursor-pointer">
+                <img src="/svgs/bx-comment.svg" alt="">
+                <span class="text-gray-500">60k</span>
+              </div>
+              <div class="repost flex cursor-pointer">
+                <img src="/svgs/repost.svg" alt="">
+                <span class="text-gray-500">150k</span>
+              </div>
+              <div class="heart flex cursor-pointer ">
+                <img src="/svgs/heart.svg" alt="">
+                <span class="text-gray-500">34k</span>
+              </div>
+              <div class="like flex cursor-pointer">
+                <img src="/svgs/like.svg" alt="">
+                <span class="text-gray-500">330k</span>
+              </div>
+            </div>
+          </div>
+          <div class="line h-0.5 w-full bg-zinc-800"></div>
+        </div>
+        <div class="post">
+          <div class="post-profile">
+            <div class="profile-info flex">
+              <img class="h-9 scale-105 object-top m-2 rounded-md object-cover w-9" src="/Image/Kolin.jpg" alt="">
+              <div class="name flex text-center items-start
+              mt-1 flex-col">
+                <span class="">Kolin</span>
+                <span class="text-zinc-600 text-sm ">@kolin</span>
+              </div>
+            </div>
+            <div class="post-content  ml-10 mr-3 ">
+              <span class="text-gray-400 my-3"></span>
+              <span>If you are thinking that my company is best than other than you are at fault . . .</span>
+            </div>
+            <div class="post-icons flex 2xl:gap-10 justify-around ml-10 py-3">
+              <div class="comment flex cursor-pointer">
+                <img src="/svgs/bx-comment.svg" alt="">
+                <span class="text-gray-500">1k</span>
+              </div>
+              <div class="repost flex cursor-pointer">
+                <img src="/svgs/repost.svg" alt="">
+                <span class="text-gray-500">2k</span>
+              </div>
+              <div class="heart flex cursor-pointer ">
+                <img src="/svgs/heart.svg" alt="">
+                <span class="text-gray-500">4k</span>
+              </div>
+              <div class="like flex cursor-pointer">
+                <img src="/svgs/like.svg" alt="">
+                <span class="text-gray-500">5k</span>
+              </div>
+            </div>
+          </div>
+          <div class="line h-0.5 w-full bg-zinc-800"></div>
+        </div>
+        <div class="post">
+          <div class="post-profile">
+            <div class="profile-info flex">
+              <img class="h-9 scale-105 object-top m-2 rounded-md object-cover w-9" src="/svgs/profile.svg" alt="">
+              <div class="name flex text-center items-start
+              mt-1 flex-col"> 
+                <span class="">Fanza</span>
+                <span class="text-zinc-600 text-sm ">@Fanza</span>
+              </div>
+            </div>
+            <div class="post-content  ml-10 mr-3 ">
+              <span class="text-gray-400 my-3">Programmers</span>
+              <img class="ml-6 h-[30%] w-[80%]" src="/Image/post.jpg" alt="">
+            </div>
+<div class="post-icons flex 2xl:gap-10 justify-around ml-10 py-3">              <div class="comment flex cursor-pointer">
+                <img src="/svgs/bx-comment.svg" alt="">
+                <span class="text-gray-500">45k</span>
+              </div>
+              <div class="repost flex cursor-pointer">
+                <img src="/svgs/repost.svg" alt="">
+                <span class="text-gray-500">20k</span>
+              </div>
+              <div class="heart flex cursor-pointer ">
+                <img src="/svgs/heart.svg" alt="">
+                <span class="text-gray-500">4.5k</span>
+              </div>
+              <div class="like flex cursor-pointer">
+                <img src="/svgs/like.svg" alt="">
+                <span class="text-gray-500">53k</span>
+              </div>
+            </div>
+          </div>
+          <div class="line h-0.5 w-full bg-zinc-800"></div>
+        </div>
+        <div class="post">
+          <div class="post-profile">
+            <div class="profile-info flex">
+              <img class="h-9 scale-105 object-top m-2 rounded-md object-cover w-9" src="/svgs/profile.svg" alt="">
+              <div class="name flex text-center items-start
+              mt-1 flex-col">
+                <span class="">Alex</span>
+                <span class="text-zinc-600 text-sm ">@alex</span>
+              </div>
+            </div>
+            <div class="post-content  ml-10 mr-3 ">
+              <span>Many People think that computer science is easy but it is not true because one error in code take
+                hours days and sometimes weeks</span>
+            </div>
+<div class="post-icons flex 2xl:gap-10 justify-around ml-10 py-3">              <div class="comment flex cursor-pointer">
+                <img src="/svgs/bx-comment.svg" alt="">
+                <span class="text-gray-500">45k</span>
+              </div>
+              <div class="repost flex cursor-pointer">
+                <img src="/svgs/repost.svg" alt="">
+                <span class="text-gray-500">20k</span>
+              </div>
+              <div class="heart flex cursor-pointer ">
+                <img src="/svgs/heart.svg" alt="">
+                <span class="text-gray-500">4.5k</span>
+              </div>
+              <div class="like flex cursor-pointer">
+                <img src="/svgs/like.svg" alt="">
+                <span class="text-gray-500">53k</span>
+              </div>
+            </div>
+          </div>
+          <div class="line h-0.5 w-full bg-zinc-800"></div>
+        </div>
+        <div class="post">
+          <div class="post-profile">
+            <div class="profile-info flex">
+              <img class="h-9 scale-105 object-top m-2 rounded-full object-cover w-9" src="/Image/profile.jpg" alt="">
+              <div class="name flex text-center items-start
+              mt-1 flex-col">
+                <span class="">Rahul</span>
+                <span class="text-zinc-600 text-sm ">@rahul</span>
+              </div>
+            </div>
+            <div class="post-content  ml-10 mr-3 ">
+              <span class="text-gray-400 my-3">Feel Good</span>
+              <img class="ml-6 h-[80%] w-[80%]" src="/Image/nature.jpg" alt="">
+            </div>
+<div class="post-icons flex 2xl:gap-10 justify-around ml-10 py-3">              <div class="comment flex cursor-pointer">
+                <img src="/svgs/bx-comment.svg" alt="">
+                <span class="text-gray-500">45k</span>
+              </div>
+              <div class="repost flex cursor-pointer">
+                <img src="/svgs/repost.svg" alt="">
+                <span class="text-gray-500">20k</span>
+              </div>
+              <div class="heart flex cursor-pointer ">
+                <img src="/svgs/heart.svg" alt="">
+                <span class="text-gray-500">4.5k</span>
+              </div>
+              <div class="like flex cursor-pointer">
+                <img src="/svgs/like.svg" alt="">
+                <span class="text-gray-500">53k</span>
+              </div>
+            </div>
+          </div>
+          <div class="line h-0.5 w-full bg-zinc-800"></div>
+        </div>
+        <div class="py-4">
+          <div class=" border-blue-300 shadow rounded-md p-4 w-full  mx-auto">
+            <div class="animate-pulse flex space-x-4">
+              <div class="rounded-full bg-slate-700 h-10 w-10"></div>
+              <div class="flex-1 space-y-6 py-1">
+                <div class="h-2 bg-slate-700 rounded"></div>
+                <div class="space-y-3">
+                  <div class="grid grid-cols-3 gap-4">
+                    <div class="h-2 bg-slate-700 rounded col-span-2"></div>
+                    <div class="h-2 bg-slate-700 rounded col-span-1"></div>
+                  </div>
+                  <div class="h-2 bg-slate-700 rounded"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line h-0.5 w-full bg-zinc-800"></div>
+        </div>
+      </div>
+    </div>
+    <div class="third lg:block hidden w-fit">
+      <div class="sticky top-0">
+        <div class="search">
+          <input type="search" class="my-2 bg-zinc-900 px-3 py-1 outline-none border-none rounded-full"
+            placeholder="Search">
+        </div>
+        <div class="whats rounded-lg bg-zinc-900">
+          <h1 class="mx-2 font-bold py-2">Whats Happening</h1>
+          <div class="trend flex flex-col px-3">
+            <span class="text-sm text-gray-300">Trending in world</span>
+            <span class="font-bold text-sm">#Harry</span>
+            <span class="text-sm text-gray-300">3.2k Posts</span>
+          </div>
+          <div class="trend flex flex-col px-3 pt-6">
+            <span class="text-sm text-gray-300">Trending in world</span>
+            <span class="font-bold text-sm">#Iran Attacks</span>
+            <span class="text-sm text-gray-300">40k Posts</span>
+          </div>
+          <div class="trend flex flex-col px-3 pt-6">
+            <span class="text-sm text-gray-300">Trending in world</span>
+            <span class="font-bold text-sm">#Politics</span>
+            <span class="text-sm text-gray-300">160k Posts</span>
+          </div>
+          <div class="trend flex flex-col px-3 py-6">
+            <span class="text-sm text-gray-300">Trending in world</span>
+            <span class="font-bold text-sm">#Sigma web development</span>
+            <span class="text-sm text-gray-300">39.5k Posts</span>
+          </div>
+        </div>
+        <div class="follow my-2 rounded-lg bg-zinc-900">
+          <h1 class="mx-2 font-bold py-2">Who To Follow</h>
+            <div class="main justify-between mt-3 flex">
+              <div class="flex cursor-pointer space-x-1.5">
+                <div class="image p-1 bg-black">
+                  <img class="" src="/svgs/play.svg" alt="">
+                </div>
+                <div class="text flex flex-col items-center ">
+                  <span class="text-xs">Vercel</span>
+                  <span class="text-gray-600 text-xs">@vercel</span>
+                </div>
+              </div>
+              <div class="mx- follow">
+                <button
+                  class="px-3 py-1 font-bold rounded-full bg-white text-[12px] hover:scale-105 text-black">Follow</button>
+              </div>
+            </div>
+            <div class="main justify-between mt-3 flex">
+              <div class="flex cursor-pointer space-x-1.5">
+                <div class="image">
+                  <img class="" src="/svgs/react.svg" alt="">
+                </div>
+                <div class="text flex flex-col items-center ">
+                  <span class="text-xs">React</span>
+                  <span class="text-gray-600 text-xs">@react</span>
+                </div>
+              </div>
+              <div class="mx- follow">
+                <button
+                  class="px-3 py-1 font-bold rounded-full bg-white text-[12px] hover:scale-105 text-black">Follow</button>
+              </div>
+            </div>
+            <div class="main justify-between mt-3 flex">
+              <div class="flex cursor-pointer space-x-1.5">
+                <div class="image">
+                  <img src="/svgs/javascript.svg" alt="">
+                </div>
+                <div class="text flex flex-col items-center ">
+                  <span class="text-xs">JavaScript</span>
+                  <span class="text-gray-600 text-xs">@javascript</span>
+                </div>
+              </div>
+              <div class="mx- follow">
+                <button
+                  class="px-3 py-1 font-bold rounded-full bg-white text-[12px] hover:scale-105 text-black">Follow</button>
+              </div>
+            </div>
+            <span class="text-blue-400 underline font-medium cursor-pointer mt-2">See More</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
